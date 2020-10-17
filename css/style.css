@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c2/Glorious-blue-mountain-range.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+h1{
+    padding: 1em;
+    display: inline-block;
+    color:#ffffff;
+}
+
+h1:hover{
+    color: red;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+
+ul li.active a{
+        background-color:white;
+        color: #000;
+}
+
+.main ul{
+    display: inline-block;
+    float: right;
+}
+.main{
+    background-color: cornflowerblue;
+}
