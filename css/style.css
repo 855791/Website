@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c2/Glorious-blue-mountain-range.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://upload.wikimedia.org/wikipedia/commons/c/c2/Glorious-blue-mountain-range.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -55,4 +55,16 @@ ul li.active a{
 }
 .main{
     background-color: cornflowerblue;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
 }
